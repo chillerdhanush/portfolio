@@ -1,0 +1,188 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    background-image: url(../images/nature.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+    
+}
+.s1{
+    color: white;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #333;
+    margin: 0.5rem auto 1rem;
+}
+.k1{
+    padding: 0px;
+}
+.a1{
+    border: 1px hidden red;
+    margin-top: 150px;
+    padding: 0px;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    text-align: justify;
+    font-size: 17px;
+    border: 1px hidden red;
+    width: 80%;
+    margin-left: 150px;
+
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 5px hidden #fc0e0e;
+    margin-bottom: 100px;
+
+}
+.x1{
+    margin-bottom: 100px;
+    border: 1px hidden red;
+    
+}
+
+.project {
+    border: 3px solid #8b83fa;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    text-align: justify;
+    width: 800px;
+    margin-left: 300px;
+}
+.z1{
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    width: 100%;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 0.5rem;
+    border: 1px solid #535151;
+    border-radius: 5px;
+}
+
+form button {
+    background: #4bb5f2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #555;
+}
+.f1{
+    border: 1px hidden red;
+    height: 36px;
+    width: 150px;
+    margin-left: 425px;
+}
+.t1{
+    font-size: 36px;
+    color: rgb(249, 6, 225);
+}
+.n1{
+    font-size: 36px; 
+    color: rgb(6, 47, 249);
+    margin-left: 10px;
+}
+.m1{
+    font-size: 36px; 
+    color: rgb(10, 10, 10);
+    margin-left: 10px;
+}
